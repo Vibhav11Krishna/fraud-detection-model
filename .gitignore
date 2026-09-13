@@ -1,0 +1,14 @@
+# Exclude datasets so they don't go to GitHub
+*.csv
+*.zip
+*.parquet
+dataset/
+data/
+
+# Python and Streamlit caches
+__pycache__/
+.streamlit/
+*.pyc
+
+# NOTE: fraud_detection_model.pkl and label_encoder.pkl are intentionally NOT listed here 
+# so they will be tracked and pushed to GitHub!
